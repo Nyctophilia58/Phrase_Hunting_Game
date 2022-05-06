@@ -6,11 +6,16 @@ class Game:
     def __init__(self):
         self.missed = 0
         self.phrases = [
-            Phrase("Have a great day"),
-            Phrase("May the fourth be with you"),
+            Phrase("Every decision you make can change the world"),
+            Phrase("Die with memories not dreams"),
             Phrase("I am iron man"),
-            Phrase("I can do this all day"),
-            Phrase("Live and let live")
+            Phrase("Aspire to inspire before we expire"),
+            Phrase("Change the world by being yourself"),
+            Phrase("The meaning of life is to give life meaning"),
+            Phrase("The time is always right to do what is right"),
+            Phrase("What consumes your mind controls your life"),
+            Phrase("Tough times never last but tough people do"),
+            Phrase("Never regret anything that made you smile")
         ]
         self.active_phrase = None
         self.guesses = []
